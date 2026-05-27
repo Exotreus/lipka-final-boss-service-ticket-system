@@ -1,0 +1,16 @@
+<Project Sdk="MSTest.Sdk/4.2.3">
+
+	<ItemGroup>
+		<ProjectReference Include="..\LIPEMCJA\LIPEMCJA.csproj" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<RootNamespace>LIPEMCJA_TESTY</RootNamespace>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<TestingPlatformShowTestsFailure>true</TestingPlatformShowTestsFailure>
+	</PropertyGroup>
+
+</Project>

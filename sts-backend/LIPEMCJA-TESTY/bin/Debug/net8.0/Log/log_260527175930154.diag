@@ -1,0 +1,18 @@
+2026-05-27T17:59:30.1582974+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 2.2.3+35d2383f858eccdf89702de06c60ab830944f55e
+2026-05-27T17:59:30.1647217+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2026-05-27T17:59:30.1654830+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2026-05-27T17:59:30.1654870+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 17:59:30.144
+2026-05-27T17:59:30.1657427+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 29236
+2026-05-27T17:59:30.1658116+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.27
+2026-05-27T17:59:30.1658173+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.27\System.Private.CoreLib.dll
+2026-05-27T17:59:30.1658227+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2026-05-27T17:59:30.1658553+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: D:\Programming 2\Big\Service Ticket System\sts-backend\LIPEMCJA-TESTY\bin\Debug\net8.0\LIPEMCJA-TESTY.dll
+2026-05-27T17:59:30.1659572+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory D:\Programming 2\Big\Service Ticket System\sts-backend\LIPEMCJA-TESTY\bin\Debug\net8.0\Log --results-directory D:\Programming 2\Big\Service Ticket System\sts-backend\TestResults --client-port 56971'
+2026-05-27T17:59:30.1667205+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2026-05-27T17:59:30.1837540+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2026-05-27T17:59:30.1881545+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2026-05-27T17:59:30.2837003+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTest.Sdk' Version: '4.2.3' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2026-05-27T17:59:30.2870996+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter WARNING Atrybut runsettings „MaxCpuCount” nie jest obsługiwany przez element Microsoft.Testing.Platform i zostanie zignorowany.
+2026-05-27T17:59:30.2954800+00:00 mstest-trace INFORMATION DesktopTestSourceHost.GetResolutionPaths(): Not running in portable mode
+2026-05-27T17:59:30.2955424+00:00 mstest-trace INFORMATION DesktopTestSourceHost.SetupHost(): Creating assembly resolver with resolution paths D:\Programming 2\Big\Service Ticket System\sts-backend\LIPEMCJA-TESTY\bin\Debug\net8.0.
+2026-05-27T17:59:30.3058885+00:00 mstest-trace INFORMATION MSTestDiscoverer: Found 6 tests from source D:\Programming 2\Big\Service Ticket System\sts-backend\LIPEMCJA-TESTY\bin\Debug\net8.0\LIPEMCJA-TESTY.dll

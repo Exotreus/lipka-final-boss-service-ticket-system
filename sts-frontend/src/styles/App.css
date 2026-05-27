@@ -1,0 +1,373 @@
+@import "tailwindcss";
+
+:root {
+    font-size: 16px;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    --font-regular: "Quicksand Variable", "Lexend Variable", Verdana, Geneva, Tahoma, sans-serif;
+    --font-heading: "Anton", "Oswald", sans-serif;
+    --font-mono: "Martian Mono Variable", monospace;
+    --font-fancy: "Dancing Script Variable", "Brush Script MT", "Segoe Script", cursive;
+
+    --color-bg: hsl(30, 5%, 5%);
+    --color-text: hsl(45, 40%, 90%);
+    --color-main: hsl(215, 85%, 55%);
+    --color-main-light: hsl(205, 75%, 65%);
+    --color-main-dark: hsl(220, 75%, 45%);
+    --color-accent: hsl(35, 90%, 55%);
+    --color-accent-light: hsl(40, 80%, 60%);
+    --color-accent-dark: hsl(30, 80%, 45%);
+
+    --color-category-1: hsl(0, 75%, 55%);
+    --color-category-2: hsl(330, 65%, 50%);
+    --color-category-3: hsl(30, 70%, 50%);
+
+    --size-nav: 4rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-weight: 500;
+}
+
+html.lenis, 
+html.lenis body { 
+    height: auto; 
+}
+
+.lenis.lenis-smooth {   
+    scroll-behavior: auto !important; 
+}
+
+html {
+    width: 100%;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    min-height: 50vh;
+    width: 100%;
+    font-family: var(--font-regular);
+    overflow-x: hidden;
+}
+
+body[data-light="false"] {
+    color: var(--color-text);
+    background-color: var(--color-bg);
+}
+
+body[data-light="true"] {
+    color: var(--color-bg);
+    background-color: var(--color-text);
+}
+
+h1, h2, h3, h4, h5, h6, .heading {
+    font-family: var(--font-heading);
+}
+
+button,
+.button {
+    padding: 0.25rem 1rem;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    user-select: none;
+    font-weight: 500;
+    outline: 2px solid;
+    border-radius: 0.25rem;
+    background-color: transparent;
+
+    transition: background-color 200ms ease, outline-color 200ms ease;
+}
+
+button > .button-text,
+.button > .button-text {
+    opacity: 50%;
+    transition: opacity 200ms ease, transform 200ms ease;
+}
+
+button:hover:not(:active) .button-text,
+.button:hover:not(:active) .button-text {
+    opacity: 100%;
+    transform: scale(102.5%);
+}
+
+button:hover:active .button-text,
+.button:hover:active .button-text {
+    opacity: 80%;
+    transform: scale(95%);
+}
+
+body[data-light="false"] button,
+body[data-light="false"] .button {
+    outline-color: hsla(0, 0%, 100%, 50%);
+}
+
+body[data-light="false"] button:hover,
+body[data-light="false"] .button:hover {
+    outline-color: hsla(0, 0%, 100%, 100%);
+}
+
+body[data-light="false"] button:hover:not(:active),
+body[data-light="false"] .button:hover:not(:active) {
+    background-color: hsla(0, 0%, 100%, 15%);
+}
+
+body[data-light="true"] button,
+body[data-light="true"] .button {
+    outline-color: hsla(0, 0%, 0%, 50%);
+}
+
+body[data-light="true"] button:hover,
+body[data-light="true"] .button:hover {
+    outline-color: hsla(0, 0%, 0%, 100%);
+}
+
+body[data-light="true"] button:hover:not(:active),
+body[data-light="true"] .button:hover:not(:active) {
+    background-color: hsla(0, 0%, 0%, 5%);
+}
+
+input[type="text"],
+input[type="email"] {
+    text-align: center;
+    padding: 0.25rem 1rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom: 2px solid;
+    transition: color 200ms ease, background-color 200ms ease, border-bottom 200ms ease;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder {
+    opacity: 50%;
+}
+
+body[data-light="false"] input[type="text"],
+body[data-light="false"] input[type="email"] {
+    color: hsla(0, 0%, 100%, 50%);
+    border-bottom-color: hsla(0, 0%, 100%, 25%);
+}
+
+body[data-light="false"] input[type="text"]:focus,
+body[data-light="false"] input[type="email"]:focus {
+    background-color: hsla(0, 0%, 100%, 5%);
+    color: var(--color-text);
+    border-bottom-color: hsla(0, 0%, 100%, 65%);
+}
+
+body[data-light="false"] input[type="text"]:hover:not(:focus),
+body[data-light="false"] input[type="email"]:hover:not(:focus) {
+    background-color: hsla(0, 0%, 100%, 10%);
+}
+
+body[data-light="true"] input[type="text"],
+body[data-light="true"] input[type="email"] {
+    color: hsla(0, 0%, 0%, 50%);
+    border-bottom-color: hsla(0, 0%, 0%, 25%);
+}
+
+body[data-light="true"] input[type="text"]:focus,
+body[data-light="true"] input[type="email"]:focus {
+    background-color: hsla(0, 0%, 0%, 5%);
+    color: var(--color-bg);
+    border-bottom-color: hsla(0, 0%, 0%, 65%);
+}
+
+body[data-light="true"] input[type="text"]:hover:not(:focus),
+body[data-light="true"] input[type="email"]:hover:not(:focus) {
+    background-color: hsla(0, 0%, 0%, 10%);
+}
+
+input[type="checkbox"],
+.checkbox {
+    outline: 2px solid;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    min-width: 1rem;
+    aspect-ratio: 1;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color 200ms ease, outline-color 200ms ease;
+}
+
+body[data-light="false"] input[type="checkbox"],
+body[data-light="false"] .checkbox {
+    outline-color: hsla(0, 0%, 100%, 50%);
+    background-color: hsla(0, 0%, 100%, 0%);
+}
+
+body[data-light="false"] input[type="checkbox"]:hover,
+body[data-light="false"] .checkbox:hover {
+    outline-color: hsla(0, 0%, 100%, 100%);
+    background-color: hsla(0, 0%, 100%, 25%);
+}
+
+body[data-light="false"] input[type="checkbox"]:hover:active,
+body[data-light="false"] .checkbox:hover:active {
+    background-color: hsla(0, 0%, 100%, 15%);
+}
+
+body[data-light="true"] input[type="checkbox"],
+body[data-light="true"] .checkbox {
+    outline-color: hsla(0, 0%, 0%, 50%);
+    background-color: hsla(0, 0%, 0%, 0%);
+}
+
+body[data-light="true"] input[type="checkbox"]:hover,
+body[data-light="true"] .checkbox:hover {
+    outline-color: hsla(0, 0%, 0%, 100%);
+    background-color: hsla(0, 0%, 0%, 25%);
+}
+
+body[data-light="true"] input[type="checkbox"]:hover:active,
+body[data-light="true"] .checkbox:hover:active {
+    background-color: hsla(0, 0%, 0%, 15%);
+}
+
+body[data-light="false"] input[type="checkbox"]:checked,
+body[data-light="false"] .checkbox[data-checked="true"],
+body[data-light="true"] input[type="checkbox"]:checked,
+body[data-light="true"] .checkbox[data-checked="true"] {
+    background-color: var(--color-accent);
+}
+
+body[data-light="false"] input[type="checkbox"]:checked:hover,
+body[data-light="true"] input[type="checkbox"]:checked:hover,
+body[data-light="false"] .checkbox[data-checked="true"]:hover,
+body[data-light="true"] .checkbox[data-checked="true"]:hover {
+    background-color: var(--color-accent-light);
+}
+
+body[data-light="false"] input[type="checkbox"]:checked:hover:active,
+body[data-light="true"] input[type="checkbox"]:checked:hover:active,
+body[data-light="false"] .checkbox[data-checked="true"]:hover:active,
+body[data-light="true"] .checkbox[data-checked="true"]:hover:active {
+    background-color: var(--color-accent-dark);
+}
+
+textarea {
+    text-align: left;
+    padding: 0.75rem 1rem;
+    border: none;
+    outline: 2px solid;
+    background-color: transparent;
+    border-radius: 0.25rem;
+    resize: none;
+    font-size: 1rem;
+    line-height: 1.5;
+    min-height: 10rem;
+
+    transition: color 200ms ease, background-color 200ms ease, outline-color 200ms ease;
+}
+
+textarea::placeholder {
+    opacity: 50%;
+}
+
+body[data-light="false"] textarea {
+    color: hsla(0, 0%, 100%, 50%);
+    outline-color: hsla(0, 0%, 100%, 25%);
+}
+
+body[data-light="false"] textarea:focus {
+    background-color: hsla(0, 0%, 100%, 5%);
+    color: var(--color-text);
+    outline-color: hsla(0, 0%, 100%, 65%);
+}
+
+body[data-light="false"] textarea:hover:not(:focus) {
+    background-color: hsla(0, 0%, 100%, 10%);
+}
+
+body[data-light="true"] textarea {
+    color: hsla(0, 0%, 0%, 50%);
+    outline-color: hsla(0, 0%, 0%, 25%);
+}
+
+body[data-light="true"] textarea:focus {
+    background-color: hsla(0, 0%, 0%, 5%);
+    color: var(--color-bg);
+    outline-color: hsla(0, 0%, 0%, 65%);
+}
+
+body[data-light="true"] textarea:hover:not(:focus) {
+    background-color: hsla(0, 0%, 0%, 10%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1rem 3rem;
+    margin-top: var(--size-nav);
+    min-height: calc(100vh - var(--size-nav));
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+h6, .h6 { font-size: 1.25rem; font-weight: 500; }
+h5, .h5 { font-size: 2rem; font-weight: 500; }
+h4, .h4 { font-size: 3.5rem; font-weight: 500; }
+h3, .h3 { font-size: 6rem; font-weight: 600; }
+h2, .h2 { font-size: 7.5rem; font-weight: 600; }
+h1, .h1 { font-size: 10rem; font-weight: 700; }
+
+.font-mono {
+    font-family: var(--font-mono);
+}
+
+.font-fancy {
+    font-family: var(--font-fancy);
+}
+
+.text-color-main {
+    color: var(--color-main);
+}
+
+.text-color-accent {
+    color: var(--color-accent);
+}
+
+body[data-light="false"] input:-webkit-autofill,
+body[data-light="false"] input:-webkit-autofill:hover,
+body[data-light="false"] input:-webkit-autofill:focus,
+body[data-light="false"] input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px var(--color-bg) inset;
+    -webkit-text-fill-color: var(--color-text);
+}
+
+body[data-light="true"] input:-webkit-autofill,
+body[data-light="true"] input:-webkit-autofill:hover,
+body[data-light="true"] input:-webkit-autofill:focus,
+body[data-light="true"] input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px var(--color-text) inset;
+    -webkit-text-fill-color: var(--color-bg);
+}

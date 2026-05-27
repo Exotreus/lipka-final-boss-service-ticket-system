@@ -1,0 +1,36 @@
+2026-05-27T17:59:30.6990424+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 2.2.3+35d2383f858eccdf89702de06c60ab830944f55e
+2026-05-27T17:59:30.7053970+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2026-05-27T17:59:30.7061380+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2026-05-27T17:59:30.7061411+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 17:59:30.685
+2026-05-27T17:59:30.7064061+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 32240
+2026-05-27T17:59:30.7064698+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.27
+2026-05-27T17:59:30.7064749+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.27\System.Private.CoreLib.dll
+2026-05-27T17:59:30.7064800+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2026-05-27T17:59:30.7065101+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: D:\Programming 2\Big\Service Ticket System\sts-backend\LIPEMCJA-TESTY\bin\Debug\net8.0\LIPEMCJA-TESTY.dll
+2026-05-27T17:59:30.7066152+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory D:\Programming 2\Big\Service Ticket System\sts-backend\LIPEMCJA-TESTY\bin\Debug\net8.0\Log --results-directory D:\Programming 2\Big\Service Ticket System\sts-backend\TestResults --client-port 61171'
+2026-05-27T17:59:30.7073874+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2026-05-27T17:59:30.7242744+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2026-05-27T17:59:30.7286479+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2026-05-27T17:59:30.8280871+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTest.Sdk' Version: '4.2.3' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2026-05-27T17:59:30.8436167+00:00 mstest-trace INFORMATION MSTestExecutor.RunTests: Running tests from sources.
+2026-05-27T17:59:30.8483696+00:00 mstest-trace INFORMATION DesktopTestSourceHost.GetResolutionPaths(): Not running in portable mode
+2026-05-27T17:59:30.8484216+00:00 mstest-trace INFORMATION DesktopTestSourceHost.SetupHost(): Creating assembly resolver with resolution paths D:\Programming 2\Big\Service Ticket System\sts-backend\LIPEMCJA-TESTY\bin\Debug\net8.0.
+2026-05-27T17:59:30.8592678+00:00 mstest-trace INFORMATION MSTestDiscoverer: Found 6 tests from source D:\Programming 2\Big\Service Ticket System\sts-backend\LIPEMCJA-TESTY\bin\Debug\net8.0\LIPEMCJA-TESTY.dll
+2026-05-27T17:59:30.8684433+00:00 mstest-trace INFORMATION DesktopTestSourceHost.GetResolutionPaths(): Not running in portable mode
+2026-05-27T17:59:30.8684617+00:00 mstest-trace INFORMATION DesktopTestSourceHost.SetupHost(): Creating assembly resolver with resolution paths D:\Programming 2\Big\Service Ticket System\sts-backend\LIPEMCJA-TESTY\bin\Debug\net8.0.
+2026-05-27T17:59:30.8684982+00:00 mstest-trace INFORMATION Created unit-test runner D:\Programming 2\Big\Service Ticket System\sts-backend\LIPEMCJA-TESTY\bin\Debug\net8.0\LIPEMCJA-TESTY.dll
+2026-05-27T17:59:30.8741513+00:00 mstest-trace INFORMATION Executing test Should_Return_False_When_Ticket_Data_Is_Invalid
+2026-05-27T17:59:30.9197368+00:00 mstest-trace INFORMATION Executed test Should_Return_False_When_Ticket_Data_Is_Invalid
+2026-05-27T17:59:30.9218742+00:00 mstest-trace INFORMATION Executing test Should_Return_True_When_Ticket_Data_Is_Valid
+2026-05-27T17:59:30.9226592+00:00 mstest-trace INFORMATION Executed test Should_Return_True_When_Ticket_Data_Is_Valid
+2026-05-27T17:59:30.9227045+00:00 mstest-trace INFORMATION Executing test Should_Invoke_TicketAdded_Event_When_Added_Through_Service
+2026-05-27T17:59:30.9480008+00:00 mstest-trace INFORMATION Executed test Should_Invoke_TicketAdded_Event_When_Added_Through_Service
+2026-05-27T17:59:30.9480756+00:00 mstest-trace INFORMATION Executing test Should_Serialize_And_Deserialize_Ticket_Correctly
+2026-05-27T17:59:30.9501340+00:00 mstest-trace INFORMATION Executed test Should_Serialize_And_Deserialize_Ticket_Correctly
+2026-05-27T17:59:30.9501775+00:00 mstest-trace INFORMATION Executing test Get_Tickets_Endpoint_Should_Return_Success_Status_Code
+2026-05-27T17:59:31.0784246+00:00 mstest-trace INFORMATION Executed test Get_Tickets_Endpoint_Should_Return_Success_Status_Code
+2026-05-27T17:59:31.0786034+00:00 mstest-trace INFORMATION Executing test Create_Valid_Ticket_Should_Return_Ok_With_New_Id
+2026-05-27T17:59:31.1120765+00:00 mstest-trace INFORMATION Executed test Create_Valid_Ticket_Should_Return_Ok_With_New_Id
+2026-05-27T17:59:31.1122865+00:00 mstest-trace INFORMATION Executed tests belonging to source D:\Programming 2\Big\Service Ticket System\sts-backend\LIPEMCJA-TESTY\bin\Debug\net8.0\LIPEMCJA-TESTY.dll
+2026-05-27T17:59:31.1126871+00:00 mstest-trace INFORMATION Deleting deployment directory D:\Programming 2\Big\Service Ticket System\sts-backend\TestResults\Deploy_Dominik 20260527T195930_32240
+2026-05-27T17:59:31.1135103+00:00 mstest-trace INFORMATION Deleted deployment directory D:\Programming 2\Big\Service Ticket System\sts-backend\TestResults\Deploy_Dominik 20260527T195930_32240

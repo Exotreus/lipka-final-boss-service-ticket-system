@@ -1,0 +1,98 @@
+.tickets-list {
+    padding: 1rem;
+}
+
+.list-ticket {
+    transition: outline-color 200ms ease;
+}
+
+.list-ticket-delete {
+    border-radius: 1rem;
+}
+
+.list-ticket-inner {
+    outline: 2px solid;
+    border-radius: 1rem;
+    transition: outline-color 200ms ease, background-color 200ms ease;
+}
+
+.list-ticket-id,
+.list-ticket-name,
+.list-ticket-unix {
+    margin-left: 1rem;
+}
+
+.list-ticket-id,
+.list-ticket-unix {
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.list-ticket-name {
+    margin-bottom: 0.5rem;
+}
+
+.list-ticket-category {
+    --category-color: var(--color-rose-500);
+    background-color: var(--category-color);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding-left: 1rem;
+    color: var(--color-text);
+}
+
+.list-ticket-category[data-category="hardware"] {
+    --category-color: var(--color-category-1);
+}
+
+.list-ticket-category[data-category="software"] {
+    --category-color: var(--color-category-2);
+}
+
+.list-ticket-category[data-category="network"] {
+    --category-color: var(--color-category-3);
+}
+
+body[data-light="false"] .list-ticket-inner {
+    outline-color: hsla(0, 0%, 100%, 50%);
+    background-color: hsla(0, 0%, 100%, 0%);
+}
+
+body[data-light="false"] .list-ticket-inner:hover:not(:active) {
+    outline-color: hsla(0, 0%, 100%, 100%);
+}
+
+body[data-light="false"] .list-ticket-inner:hover {
+    background-color: hsla(0, 0%, 100%, 10%);
+}
+
+body[data-light="false"] .list-ticket-inner:hover:active {
+    background-color: hsla(0, 0%, 100%, 5%);
+}
+
+body[data-light="true"] .list-ticket-inner {
+    outline-color: hsla(0, 0%, 0%, 50%);
+    background-color: hsla(0, 0%, 0%, 0%);
+}
+
+body[data-light="true"] .list-ticket-inner:hover:not(:active) {
+    outline-color: hsla(0, 0%, 0%, 100%);
+}
+
+body[data-light="true"] .list-ticket-inner:hover {
+    background-color: hsla(0, 0%, 0%, 10%);
+}
+
+body[data-light="true"] .list-ticket-inner:hover:active {
+    background-color: hsla(0, 0%, 0%, 5%);
+}
+
+.delete-multiple-container {
+    overflow: hidden;
+    height: 5rem;
+    transition: height 100ms ease;
+}
+
+.delete-multiple-container[data-hidden="true"] {
+    height: 0rem;
+}

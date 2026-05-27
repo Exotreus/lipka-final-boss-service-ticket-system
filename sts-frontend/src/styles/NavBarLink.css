@@ -1,0 +1,56 @@
+.nav-link-wrapper {
+    padding: 0.5rem 0;
+}
+
+.nav-link {
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 100ms ease;
+}
+
+.nav-link-label,
+.nav-link-icon {
+    transition: transform 200ms ease, color 100ms ease;
+}
+
+body[data-light="false"] .nav-link {
+    background-color: hsla(0, 0%, 100%, 0%);
+}
+
+body[data-light="false"] .nav-link:hover {
+    background-color: hsla(0, 0%, 100%, 10%);
+}
+
+body[data-light="false"] .nav-link:hover:active {
+    background-color: hsla(0, 0%, 100%, 5%);
+}
+
+body[data-light="true"] .nav-link {
+    background-color: hsla(0, 0%, 0%, 0%);
+}
+
+body[data-light="true"] .nav-link:hover {
+    background-color: hsla(0, 0%, 0%, 10%);
+}
+
+body[data-light="true"] .nav-link:hover:active {
+    background-color: hsla(0, 0%, 0%, 5%);
+}
+
+.nav-link:hover:not(:active) .nav-link-label {
+    transform: scale(115%);
+}
+
+.nav-link:hover:not(:active) .nav-link-icon {
+    transform: scale(110%);
+}
+
+body[data-light="false"] .nav-link:hover .nav-link-label,
+body[data-light="false"] .nav-link:hover .nav-link-icon {
+    color: var(--color-accent);
+}
+
+body[data-light="true"] .nav-link:hover .nav-link-label,
+body[data-light="true"] .nav-link:hover .nav-link-icon {
+    color: var(--color-accent-dark);
+}

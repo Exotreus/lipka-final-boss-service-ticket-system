@@ -1,0 +1,30 @@
+nav {
+    height: var(--size-nav);
+    backdrop-filter: blur(10px);
+}
+
+body[data-light="false"] nav {
+    background-color: hsla(0, 0%, 100%, 2.5%);
+    border-bottom: 2px solid hsla(0, 0%, 100%, 10%);
+}
+
+body[data-light="true"] nav {
+    background-color: hsla(0, 0%, 0%, 2.5%);
+    border-bottom: 2px solid hsla(0, 0%, 0%, 10%);
+}
+
+.nav-links {
+    padding: 0 2rem;
+}
+
+.nav-link-separator {
+    border-radius: 0.1rem;
+}
+
+body[data-light="false"] .nav-link-separator {
+    background-color: hsla(0, 0%, 100%, 5%);
+}
+
+body[data-light="true"] .nav-link-separator {
+    background-color: hsla(0, 0%, 0%, 5%);
+}

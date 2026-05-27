@@ -1,0 +1,234 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFA9032F-4E33-4E71-A9FC-0C706264B872}|LIPEMCJA-TESTY\\LIPEMCJA-TESTY.csproj|d:\\programming 2\\big\\service ticket system\\sts-backend\\lipemcja-testy\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFA9032F-4E33-4E71-A9FC-0C706264B872}|LIPEMCJA-TESTY\\LIPEMCJA-TESTY.csproj|solutionrelative:lipemcja-testy\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03A85FD-E0B4-40EE-96CA-992D6213C668}|LIPEMCJA\\LIPEMCJA.csproj|d:\\programming 2\\big\\service ticket system\\sts-backend\\lipemcja\\emailnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03A85FD-E0B4-40EE-96CA-992D6213C668}|LIPEMCJA\\LIPEMCJA.csproj|solutionrelative:lipemcja\\emailnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03A85FD-E0B4-40EE-96CA-992D6213C668}|LIPEMCJA\\LIPEMCJA.csproj|d:\\programming 2\\big\\service ticket system\\sts-backend\\lipemcja\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03A85FD-E0B4-40EE-96CA-992D6213C668}|LIPEMCJA\\LIPEMCJA.csproj|solutionrelative:lipemcja\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03A85FD-E0B4-40EE-96CA-992D6213C668}|LIPEMCJA\\LIPEMCJA.csproj|d:\\programming 2\\big\\service ticket system\\sts-backend\\lipemcja\\jsonticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03A85FD-E0B4-40EE-96CA-992D6213C668}|LIPEMCJA\\LIPEMCJA.csproj|solutionrelative:lipemcja\\jsonticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03A85FD-E0B4-40EE-96CA-992D6213C668}|LIPEMCJA\\LIPEMCJA.csproj|d:\\programming 2\\big\\service ticket system\\sts-backend\\lipemcja\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03A85FD-E0B4-40EE-96CA-992D6213C668}|LIPEMCJA\\LIPEMCJA.csproj|solutionrelative:lipemcja\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03A85FD-E0B4-40EE-96CA-992D6213C668}|LIPEMCJA\\LIPEMCJA.csproj|d:\\programming 2\\big\\service ticket system\\sts-backend\\lipemcja\\serviceticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03A85FD-E0B4-40EE-96CA-992D6213C668}|LIPEMCJA\\LIPEMCJA.csproj|solutionrelative:lipemcja\\serviceticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03A85FD-E0B4-40EE-96CA-992D6213C668}|LIPEMCJA\\LIPEMCJA.csproj|d:\\programming 2\\big\\service ticket system\\sts-backend\\lipemcja\\serviceticketcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03A85FD-E0B4-40EE-96CA-992D6213C668}|LIPEMCJA\\LIPEMCJA.csproj|solutionrelative:lipemcja\\serviceticketcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03A85FD-E0B4-40EE-96CA-992D6213C668}|LIPEMCJA\\LIPEMCJA.csproj|d:\\programming 2\\big\\service ticket system\\sts-backend\\lipemcja\\serviceticketvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03A85FD-E0B4-40EE-96CA-992D6213C668}|LIPEMCJA\\LIPEMCJA.csproj|solutionrelative:lipemcja\\serviceticketvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03A85FD-E0B4-40EE-96CA-992D6213C668}|LIPEMCJA\\LIPEMCJA.csproj|d:\\programming 2\\big\\service ticket system\\sts-backend\\lipemcja\\ticketlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03A85FD-E0B4-40EE-96CA-992D6213C668}|LIPEMCJA\\LIPEMCJA.csproj|solutionrelative:lipemcja\\ticketlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03A85FD-E0B4-40EE-96CA-992D6213C668}|LIPEMCJA\\LIPEMCJA.csproj|d:\\programming 2\\big\\service ticket system\\sts-backend\\lipemcja\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03A85FD-E0B4-40EE-96CA-992D6213C668}|LIPEMCJA\\LIPEMCJA.csproj|solutionrelative:lipemcja\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03A85FD-E0B4-40EE-96CA-992D6213C668}|LIPEMCJA\\LIPEMCJA.csproj|d:\\programming 2\\big\\service ticket system\\sts-backend\\lipemcja\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03A85FD-E0B4-40EE-96CA-992D6213C668}|LIPEMCJA\\LIPEMCJA.csproj|solutionrelative:lipemcja\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFA9032F-4E33-4E71-A9FC-0C706264B872}|LIPEMCJA-TESTY\\LIPEMCJA-TESTY.csproj|d:\\programming 2\\big\\service ticket system\\sts-backend\\lipemcja-testy\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFA9032F-4E33-4E71-A9FC-0C706264B872}|LIPEMCJA-TESTY\\LIPEMCJA-TESTY.csproj|solutionrelative:lipemcja-testy\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 323,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 292,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA-TESTY\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "LIPEMCJA-TESTY\\MSTestSettings.cs",
+              "ToolTip": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA-TESTY\\MSTestSettings.cs",
+              "RelativeToolTip": "LIPEMCJA-TESTY\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T17:34:24.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TicketService.cs",
+              "DocumentMoniker": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA\\TicketService.cs",
+              "RelativeDocumentMoniker": "LIPEMCJA\\TicketService.cs",
+              "ToolTip": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA\\TicketService.cs",
+              "RelativeToolTip": "LIPEMCJA\\TicketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T17:34:20.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TicketsController.cs",
+              "DocumentMoniker": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA\\TicketsController.cs",
+              "RelativeDocumentMoniker": "LIPEMCJA\\TicketsController.cs",
+              "ToolTip": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA\\TicketsController.cs",
+              "RelativeToolTip": "LIPEMCJA\\TicketsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T17:34:12.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TicketLogger.cs",
+              "DocumentMoniker": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA\\TicketLogger.cs",
+              "RelativeDocumentMoniker": "LIPEMCJA\\TicketLogger.cs",
+              "ToolTip": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA\\TicketLogger.cs",
+              "RelativeToolTip": "LIPEMCJA\\TicketLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T17:34:01.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServiceTicketValidator.cs",
+              "DocumentMoniker": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA\\ServiceTicketValidator.cs",
+              "RelativeDocumentMoniker": "LIPEMCJA\\ServiceTicketValidator.cs",
+              "ToolTip": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA\\ServiceTicketValidator.cs",
+              "RelativeToolTip": "LIPEMCJA\\ServiceTicketValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T17:33:58.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceTicketCategories.cs",
+              "DocumentMoniker": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA\\ServiceTicketCategories.cs",
+              "RelativeDocumentMoniker": "LIPEMCJA\\ServiceTicketCategories.cs",
+              "ToolTip": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA\\ServiceTicketCategories.cs",
+              "RelativeToolTip": "LIPEMCJA\\ServiceTicketCategories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T17:33:52.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServiceTicket.cs",
+              "DocumentMoniker": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA\\ServiceTicket.cs",
+              "RelativeDocumentMoniker": "LIPEMCJA\\ServiceTicket.cs",
+              "ToolTip": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA\\ServiceTicket.cs",
+              "RelativeToolTip": "LIPEMCJA\\ServiceTicket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T17:33:49.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA\\Program.cs",
+              "RelativeDocumentMoniker": "LIPEMCJA\\Program.cs",
+              "ToolTip": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA\\Program.cs",
+              "RelativeToolTip": "LIPEMCJA\\Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T17:33:42.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JsonTicketRepository.cs",
+              "DocumentMoniker": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA\\JsonTicketRepository.cs",
+              "RelativeDocumentMoniker": "LIPEMCJA\\JsonTicketRepository.cs",
+              "ToolTip": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA\\JsonTicketRepository.cs",
+              "RelativeToolTip": "LIPEMCJA\\JsonTicketRepository.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T17:33:27.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITicketRepository.cs",
+              "DocumentMoniker": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA\\ITicketRepository.cs",
+              "RelativeDocumentMoniker": "LIPEMCJA\\ITicketRepository.cs",
+              "ToolTip": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA\\ITicketRepository.cs",
+              "RelativeToolTip": "LIPEMCJA\\ITicketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T17:33:26.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailNotifier.cs",
+              "DocumentMoniker": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA\\EmailNotifier.cs",
+              "RelativeDocumentMoniker": "LIPEMCJA\\EmailNotifier.cs",
+              "ToolTip": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA\\EmailNotifier.cs",
+              "RelativeToolTip": "LIPEMCJA\\EmailNotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T17:33:06.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA-TESTY\\Test1.cs",
+              "RelativeDocumentMoniker": "LIPEMCJA-TESTY\\Test1.cs",
+              "ToolTip": "D:\\Programming 2\\Big\\Service Ticket System\\sts-backend\\LIPEMCJA-TESTY\\Test1.cs",
+              "RelativeToolTip": "LIPEMCJA-TESTY\\Test1.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAuwBkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T16:54:39.29Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

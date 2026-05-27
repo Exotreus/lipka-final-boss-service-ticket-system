@@ -1,0 +1,99 @@
+.floater-wrapper {
+    pointer-events: none;
+    position: fixed;
+    z-index: 5000;
+    left: 0;
+    bottom: 0;
+    min-width: 2rem;
+    min-height: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.floater-wrapper * {
+    pointer-events: initial;
+}
+
+.floater-body {
+    border-radius: 9999rem;
+    backdrop-filter: blur(10px);
+    outline: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+body[data-light="false"] .floater-body {
+    background-color: hsla(0, 0%, 100%, 10%);
+    outline-color: hsla(0, 0%, 100%, 50%);
+}
+
+body[data-light="true"] .floater-body {
+    background-color: hsla(0, 0%, 0%, 10%);
+    outline-color: hsla(0, 0%, 0%, 50%);
+}
+
+.floater-icon,
+.floater-option {
+    aspect-ratio: 1;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.floater-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    margin: 0.75rem;
+}
+
+.floater-options {
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    overflow: hidden;
+    height: 4.5rem;
+
+    transition: height 200ms ease;
+}
+
+.floater-body:not(:hover) .floater-options {
+    height: 0rem;
+}
+
+.floater-option {
+    aspect-ratio: 1;
+    width: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.25rem;
+}
+
+.floater-option[data-toggled="true"] {
+    background-color: var(--color-accent) !important;
+}
+
+.floater-option[data-toggled="true"]:hover {
+    background-color: var(--color-accent-light) !important;
+}
+
+.floater-option-icon {
+    font-size: 2rem;
+
+    transition: transform 200ms ease;
+}
+
+.floater-option:hover:not(:active) > .floater-option-icon {
+    transform: scale(110%);
+}

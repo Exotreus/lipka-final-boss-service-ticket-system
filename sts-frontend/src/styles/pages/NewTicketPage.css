@@ -1,0 +1,103 @@
+.form-create-field {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: 200ms ease background-color;
+}
+
+body[data-light="false"] .form-create-field:hover {
+    background-color: hsla(0, 0%, 100%, 5%);
+}
+
+body[data-light="false"] .form-create-field:focus-within {
+    background-color: hsla(0, 0%, 100%, 10%);
+}
+
+body[data-light="true"] .form-create-field:hover {
+    background-color: hsla(0, 0%, 0%, 5%);
+}
+
+body[data-light="true"] .form-create-field:focus-within {
+    background-color: hsla(0, 0%, 0%, 10%);
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 0.25rem 1rem;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom: 2px solid;
+    transition: color 200ms ease, background-color 200ms ease, border-bottom 200ms ease;
+}
+
+body[data-light="false"] input[type="text"],
+body[data-light="false"] input[type="email"] {
+    color: hsla(0, 0%, 100%, 50%);
+    border-bottom-color: hsla(0, 0%, 100%, 25%);
+}
+
+body[data-light="false"] input[type="text"]:focus,
+body[data-light="false"] input[type="email"]:focus {
+    background-color: hsla(0, 0%, 100%, 5%);
+    color: var(--color-text);
+    border-bottom-color: hsla(0, 0%, 100%, 65%);
+}
+
+body[data-light="false"] input[type="text"]:hover:not(:focus),
+body[data-light="false"] input[type="email"]:hover:not(:focus) {
+    background-color: hsla(0, 0%, 100%, 10%);
+}
+
+body[data-light="true"] input[type="text"],
+body[data-light="true"] input[type="email"] {
+    color: hsla(0, 0%, 0%, 50%);
+    border-bottom-color: hsla(0, 0%, 0%, 25%);
+}
+
+body[data-light="true"] input[type="text"]:focus,
+body[data-light="true"] input[type="email"]:focus {
+    background-color: hsla(0, 0%, 0%, 5%);
+    color: var(--color-bg);
+    border-bottom-color: hsla(0, 0%, 0%, 65%);
+}
+
+body[data-light="true"] input[type="text"]:hover:not(:focus),
+body[data-light="true"] input[type="email"]:hover:not(:focus) {
+    background-color: hsla(0, 0%, 0%, 10%);
+}
+
+textarea {
+    padding: 0.75rem 1rem;
+    outline: 2px solid;
+    border-radius: 0.25rem;
+    transition: color 200ms ease, background-color 200ms ease, outline-color 200ms ease;
+}
+
+body[data-light="false"] textarea {
+    color: hsla(0, 0%, 100%, 50%);
+    outline-color: hsla(0, 0%, 100%, 25%);
+}
+
+body[data-light="false"] textarea:focus {
+    background-color: hsla(0, 0%, 100%, 5%);
+    color: var(--color-text);
+    outline-color: hsla(0, 0%, 100%, 65%);
+}
+
+body[data-light="false"] textarea:hover:not(:focus) {
+    background-color: hsla(0, 0%, 100%, 10%);
+}
+
+body[data-light="true"] textarea {
+    color: hsla(0, 0%, 0%, 50%);
+    outline-color: hsla(0, 0%, 0%, 25%);
+}
+
+body[data-light="true"] textarea:focus {
+    background-color: hsla(0, 0%, 0%, 5%);
+    color: var(--color-bg);
+    outline-color: hsla(0, 0%, 0%, 65%);
+}
+
+body[data-light="true"] textarea:hover:not(:focus) {
+    background-color: hsla(0, 0%, 0%, 10%);
+}
